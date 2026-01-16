@@ -19,9 +19,9 @@ This file formalizes the proof that any path graph is graceful graph.
 
 The proof follows the following steps:
 1. Formally define a path graph, built from a SimpleGraph of `n` vertices with
-   the relation that every vertice `i < n` has an edge to `i + 1`: `pathGraph`
-2. Establish a vertice labeling function: `pathLabel`
-3. Show that for any Nat. `n`, the vertice labeling function is
+   the relation that every vertex `i < n` has an edge to `i + 1`: `pathGraph`
+2. Establish a vertex labeling function: `pathLabel`
+3. Show that for any Nat. `n`, the vertex labeling function is
    injective: `pathGraph_injective`
 4. Show that for any edge between vertices `i` and `i + 1`, its value is equal
    to `(n - 1) - i`: `path_edge_label_val`
